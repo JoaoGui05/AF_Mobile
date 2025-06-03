@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?android:selectableItemBackground"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/nomeRonda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome da Ronda"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/horarioRonda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horário" />
+
+        <TextView
+            android:id="@+id/funcionariosRonda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funcionários" />
+
+        <TextView
+            android:id="@+id/pontosRonda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pontos" />
+
+        <Button
+            android:id="@+id/btnIniciarRonda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
