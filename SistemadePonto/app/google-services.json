@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627165337890",
+    "project_id": "startupfirebase-7d749",
+    "storage_bucket": "startupfirebase-7d749.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627165337890:android:dea2d0816c26792a5dad7b",
+        "android_client_info": {
+          "package_name": "com.example.sistemadeponto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApi5P_TZAjhxVZnTw6fTBsVUgx2CEvnPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
